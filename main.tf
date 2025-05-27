@@ -29,6 +29,7 @@ module "cloud_run" {
   image_name   = var.image_name
   image_tag    = var.image_tag
   port         = var.port
+
   
   environment_variables = var.environment_variables
   
