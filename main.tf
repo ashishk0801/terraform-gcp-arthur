@@ -18,8 +18,6 @@ terraform {
 provider "google" {
   project = var.project_id
   region  = var.region
-
-  impersonate_service_account = "terraform-cloud-sa@extreme-hull-460509-u7ajdn.iam.gserviceaccount.com"
 }
 
 module "cloud_run" {
