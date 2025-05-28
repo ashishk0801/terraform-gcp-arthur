@@ -2,6 +2,7 @@ project_id = "extreme-hull-460509-u7"
 region     = "us-central1"
 app_name   = "flask-app"
 image_name = "flask-app"
+image_tag = ""
 
 environment_variables = {
   VERSION = "1.0.0"
