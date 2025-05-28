@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     return f"""
-    <h1>Hello from Cloud Run!</h1>
+    <h1>Hello from Cloud Run New Version - 28-05-2025 11:05!</h1>
     <p>Version: {os.environ.get('VERSION', 'latest')}</p>
     <p>Commit: {os.environ.get('COMMIT_SHA', 'unknown')}</p>
     """
