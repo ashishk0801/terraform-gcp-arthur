@@ -1,5 +1,5 @@
 output "service_name" {
-  description = "The name of the Cloud Run service"
+  description = "The name of the Cloud Run service service"
   value       = module.cloud_run.service_name
 }
 
